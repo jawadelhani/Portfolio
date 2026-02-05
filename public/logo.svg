@@ -1,0 +1,6 @@
+<svg viewBox="0 0 450 450" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="#1f8d93" stroke-width="60" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Top horizontal serif -->
+  <path d="M 220 60 L 350 60" />
+  <!-- J shape: vertical stem, curved base -->
+  <path d="M 280 60 L 280 280 Q 280 360 200 360 Q 120 360 120 300" />
+</svg>
