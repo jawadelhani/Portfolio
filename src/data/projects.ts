@@ -65,4 +65,45 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     sourceCodeHref: "https://github.com/jawadelhani",
     liveWebsiteHref: undefined,
   },
+  {
+    name: "Multi-Agent Project Management System (in progress)",
+    favicon: "/favicon.ico",
+    imageUrl: ["/images/projects/multi-agent.png"],
+    description:
+      "Autonomous AI agent platform (Product Owner, Planning, Risk Manager, Coach) focused on project management intelligence: user story generation, backlog prioritization, and risk anticipation.",
+    sourceCodeHref: "https://github.com/jawadelhani",
+    liveWebsiteHref: undefined,
+  },
+  {
+    name: "Load Balancer (Spring Boot, Go)",
+    favicon: "/favicon.ico",
+    imageUrl: ["/images/projects/load-balancer.png"],
+    description:
+      "Built an HTTP reverse proxy that distributes requests across three backend servers using multiple strategies (including Round Robin and Least Connections), with runtime metrics for traffic/performance optimization.",
+    sourceCodeHref: "https://github.com/jawadelhani/Load_Balancer",
+    liveWebsiteHref: undefined,
+  },
+  {
+    name: "DevOps Travelo",
+    favicon: "/favicon.ico",
+    imageUrl: ["/images/projects/devops-travelo.png"],
+    description:
+      "Implemented a full DevOps pipeline: 3-tier containerization (React, Spring Boot, MySQL), CI/CD with security scans via GitLab CI, GitOps deployment with ArgoCD, and secure secrets management using Vault.",
+    sourceCodeHref: "https://github.com/jawadelhani",
+    liveWebsiteHref: undefined,
+  },
+  {
+    name: "Store API (Spring Boot)",
+    favicon: "/favicon.ico",
+    imageUrl: [
+      "/images/projects/store-api-1.png",
+      "/images/projects/store-api-2.png",
+      "/images/projects/store-api-3.png",
+      "/images/projects/store-api-4.png",
+    ],
+    description:
+      "Spring Boot e-commerce backend with JWT auth, refresh tokens (HttpOnly cookie), RBAC (USER/ADMIN), products/carts/users modules, Bean Validation, Flyway migrations, and Swagger docs. Built with Java 23, Spring Boot 3.4, MySQL, and MapStruct.",
+    sourceCodeHref: "https://github.com/jawadelhani/spring-api",
+    liveWebsiteHref: undefined,
+  },
 ];

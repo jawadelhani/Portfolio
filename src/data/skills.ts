@@ -11,6 +11,7 @@ import {
   SiPrometheus,
   SiSpringboot,
   SiVercel,
+  SiGo,
 } from "react-icons/si";
 import { ReactRouterDomIcon } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
@@ -48,6 +49,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       { name: "Javascript", icon: JavascriptSvg },
       { name: "TypeScript", icon: TypescriptSvg },
       { name: "Python", icon: PythonSvg },
+      { name: "Go", icon: SiGo, color: "#00ADD8" },
     ],
   },
   {
