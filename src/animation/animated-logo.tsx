@@ -11,8 +11,7 @@ export default function AnimatedLogo() {
   };
 
   // Proper J shape: vertical line on left, curves to the left at bottom
-  const jPath =
-    "M 280 60 L 280 280 Q 280 360 200 360 Q 120 360 120 300";
+  const jPath = "M 280 60 L 280 280 Q 280 360 200 360 Q 120 360 120 300";
 
   // Top horizontal line (serif)
   const topLine = "M 220 60 L 350 60";
@@ -39,7 +38,7 @@ export default function AnimatedLogo() {
             ease: "easeInOut",
           }}
         />
-        
+
         {/* Main J shape */}
         <motion.path
           d={jPath}

@@ -14,7 +14,7 @@ export default function AboutHero() {
       <div className="flex w-full items-center justify-center sm:w-1/2 md:w-2/3 lg:inline-block lg:h-full lg:w-1/2">
         <AnimatePresence>
           <FadeUp key="hero-image" duration={0.6}>
-            <div className="relative aspect-square w-56 overflow-hidden rounded-full ring-2 ring-accent/40 shadow-lg shadow-accent/10 sm:w-64 md:w-72 lg:w-80">
+            <div className="relative aspect-square w-56 overflow-hidden rounded-full shadow-lg shadow-accent/10 ring-2 ring-accent/40 sm:w-64 md:w-72 lg:w-80">
               <DuotoneImage
                 src={heroProfileImg}
                 width={800}
@@ -68,9 +68,7 @@ export default function AboutHero() {
                 height={15}
               />
             </div>
-            <span className="text-lg font-medium text-foreground">
-              Morocco
-            </span>
+            <span className="text-lg font-medium text-foreground">Morocco</span>
           </FadeRight>
         </AnimatePresence>
       </div>

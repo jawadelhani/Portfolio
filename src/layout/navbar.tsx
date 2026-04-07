@@ -23,7 +23,9 @@ export interface NavbarProps {
 export default function Navbar(props: NavbarProps) {
   const pathName = usePathname();
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState<"home" | "about" | "projects">("home");
+  const [activeSection, setActiveSection] = useState<
+    "home" | "about" | "projects"
+  >("home");
 
   const toggleModal = () => {
     setIsModalOpen((prev) => !prev);

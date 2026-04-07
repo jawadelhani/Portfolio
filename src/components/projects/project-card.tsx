@@ -30,12 +30,7 @@ export default function ProjectCard(props: ProjectCardProps) {
       <div className="p-3 text-foreground sm:p-4">
         <div className="flex items-center gap-3">
           <span className="relative h-5 w-5">
-            <Image
-              src={props.favicon}
-              alt="logo"
-              fill
-              sizes="20px"
-            />
+            <Image src={props.favicon} alt="logo" fill sizes="20px" />
           </span>
           <span className="text-sm font-semibold">{props.name}</span>
         </div>

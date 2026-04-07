@@ -47,8 +47,7 @@ export default function LandingHero() {
             </FadeUp>
             <FadeUp key="description" duration={0.6} delay={0.2}>
               <div className="mt-8 max-w-3xl text-base font-semibold text-zinc-900 dark:text-zinc-200 sm:text-base md:text-xl">
-                Building scalable web applications with modern technologies
-                like{" "}
+                Building scalable web applications with modern technologies like{" "}
                 <span className="font-semibold text-accent">React</span>,{" "}
                 <span className="font-semibold text-accent">Next.js</span>,{" "}
                 <span className="font-semibold text-accent">TypeScript</span>,{" "}

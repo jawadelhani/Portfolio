@@ -2,7 +2,8 @@ export const siteMetadata = {
   title: "Jawad El Hani portfolio",
   author: "Jawad El Hani",
   headerTitle: "Jawad El Hani",
-  description: "Software Engineering Student — Full-Stack & Frontend Development",
+  description:
+    "Software Engineering Student — Full-Stack & Frontend Development",
   language: "en-us",
   theme: "light",
   siteName: "jawadelhani.github.io",

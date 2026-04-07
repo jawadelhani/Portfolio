@@ -80,8 +80,8 @@ export default function Home() {
             </div>
             <div className="mx-auto mt-16 max-w-5xl text-center text-foreground md:mt-28">
               <span className="text-xl font-bold md:text-2xl">
-                I&apos;m building new projects and deepening my full-stack
-                and backend skills.
+                I&apos;m building new projects and deepening my full-stack and
+                backend skills.
               </span>
               <p className="mt-10 text-base md:text-xl">
                 Visit my github to see some of the latest projects{" "}

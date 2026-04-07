@@ -58,7 +58,9 @@ export default function MobileMenu({
                 ))}
                 <ThemeSwitch setClose={setOpenMenu} />
               </div>
-              <div className="absolute bottom-0 py-6">©{new Date().getFullYear()} Jawad El Hani</div>
+              <div className="absolute bottom-0 py-6">
+                ©{new Date().getFullYear()} Jawad El Hani
+              </div>
             </Dialog.Panel>
           </Transition.Child>
         </div>
