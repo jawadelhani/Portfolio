@@ -58,7 +58,7 @@ export default function Navbar(props: NavbarProps) {
   return (
     <header className="sticky top-0 z-50 mt-2 px-6 py-8 sm:mt-8 sm:px-14 md:px-20">
       <div className="mx-auto flex items-center justify-between lg:max-w-7xl">
-        <div className="h-12 w-12 sm:h-14 sm:w-14" aria-hidden />
+        <div className="h-12 w-12 shrink-0 sm:h-14 sm:w-14" aria-hidden />
         <nav className="hidden items-center gap-2 rounded-full px-2 py-2 shadow-md ring-1 ring-zinc-200 backdrop-blur-md dark:ring-accent/50 md:flex">
           <ul className="flex gap-2 text-sm font-medium">
             {props.routes.map((_link, index) => {

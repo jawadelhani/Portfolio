@@ -13,7 +13,7 @@ import {
   SiVercel,
   SiGo,
 } from "react-icons/si";
-import { ReactRouterDomIcon } from "@/components/icons";
+import { CppIcon, JavaIcon, ReactRouterDomIcon } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
@@ -49,6 +49,8 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       { name: "Javascript", icon: JavascriptSvg },
       { name: "TypeScript", icon: TypescriptSvg },
       { name: "Python", icon: PythonSvg },
+      { name: "C++", icon: CppIcon },
+      { name: "Java", icon: JavaIcon },
       { name: "Go", icon: SiGo, color: "#00ADD8" },
     ],
   },

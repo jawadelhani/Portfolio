@@ -9,7 +9,7 @@ export const siteMetadata = {
   siteName: "jawadelhani.github.io",
   siteUrl: "https://github.com/jawadelhani",
   siteRepo: "https://github.com/jawadelhani",
-  siteLogo: "/favicon.ico",
+  siteLogo: "/j-logo.png",
   image: "/static/homepage.png",
   twitterImage: "/static/homepage.png",
   socialBanner: "/static/homepage.png",

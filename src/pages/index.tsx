@@ -18,13 +18,13 @@ export default function Home() {
     <>
       <NextSeo
         title="Jawad El Hani | Software Engineering Student"
-        description="Portfolio of Jawad El Hani, software engineering student at INPT. Full-stack and frontend development with React, Next.js, TypeScript, FastAPI, and Node.js. Internships at ADII and B2BLink."
+        description="Portfolio of Jawad El Hani, software engineering student at INPT. Full-stack and frontend development with React, Next.js, TypeScript, FastAPI, Node.js, and Spring Boot."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
           title: "Jawad El Hani - Software Engineering Student",
           description:
-            "Full-stack and frontend developer. Explore projects in SEO SaaS, game discovery, and e-commerce. INPT student with experience in React, Next.js, FastAPI, and Node.js.",
+            "Full-stack developer. Explore projects in SEO SaaS, game discovery, e-commerce, Spring Boot APIs, DevOps, and more.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
@@ -41,7 +41,7 @@ export default function Home() {
           {
             property: "keywords",
             content:
-              "Jawad El Hani, Software Engineering Student, Full-Stack Developer, Frontend Developer, React, Next.js, TypeScript, FastAPI, Node.js, INPT, Portfolio",
+              "Jawad El Hani, Software Engineering Student, Full-Stack Developer, React, Next.js, TypeScript, FastAPI, Spring Boot, Go, DevOps, INPT",
           },
         ]}
       />

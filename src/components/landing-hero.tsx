@@ -53,7 +53,7 @@ export default function LandingHero() {
                 <span className="font-semibold text-accent">TypeScript</span>,{" "}
                 <span className="font-semibold text-accent">Node.js</span>,{" "}
                 <span className="font-semibold text-accent">FastAPI</span>, and{" "}
-                <span className="font-semibold text-accent">Spring Boot</span>
+                <span className="font-semibold text-accent">Spring Boot</span>.
               </div>
             </FadeUp>
           </AnimatePresence>

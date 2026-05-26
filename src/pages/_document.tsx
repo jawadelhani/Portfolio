@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+        <link rel="icon" type="image/png" href="/j-logo.png" />
       </Head>
       <body className="bg-background text-zinc-950 antialiased selection:bg-accent selection:text-background">
         <Main />

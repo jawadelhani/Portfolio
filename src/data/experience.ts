@@ -2,6 +2,17 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
+    title: "C++ Training & Technical Project",
+    organisation: {
+      name: "Siemens",
+      href: "https://www.siemens.com/",
+    },
+    date: "April 2026 - May 2026",
+    location: "Rabat, Morocco",
+    description:
+      "Advanced training in modern C++, object-oriented programming, and software engineering best practices. Contributed to the development of a Verilog & Liberty analyzer in C++ with a lexer/parser architecture.",
+  },
+  {
     title: "Intern - Full-Stack Web Development",
     organisation: {
       name: "Administration des Douanes et Impôts Indirects (ADII)",
@@ -16,7 +27,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     title: "Intern - Software Development (SEO SaaS Project)",
     organisation: {
       name: "B2BLink",
-      href: "https://b2blink.com/",
+      href: "#",
     },
     date: "August 2025",
     location: "Remote",

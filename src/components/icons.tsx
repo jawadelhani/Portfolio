@@ -86,6 +86,23 @@ export function NextJsIcon() {
   );
 }
 
+function createPngIcon(src: string) {
+  return function PngIcon({ className }: { className?: string }) {
+    return (
+      // eslint-disable-next-line @next/next/no-img-element
+      <img
+        src={src}
+        alt=""
+        className={className}
+        style={{ objectFit: "contain" }}
+      />
+    );
+  };
+}
+
+export const CppIcon = createPngIcon("/icons/cpp.png");
+export const JavaIcon = createPngIcon("/icons/java.png");
+
 export function ReactRouterDomIcon({ className }: { className?: string }) {
   return (
     <svg
