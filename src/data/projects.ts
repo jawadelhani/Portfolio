@@ -36,6 +36,22 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
+    name: "AgileAI (LangGraph, Python, FastAPI, Next.js)",
+    favicon: "/favicon.ico",
+    imageUrl: [
+      "/images/projects/agileai-banner.png",
+      "/images/projects/agileai-1.png",
+      "/images/projects/agileai-2.png",
+      "/images/projects/agileai-3.png",
+      "/images/projects/agileai-4.png",
+    ],
+    description:
+      "Plateforme de gestion de projet agile pilotée par l'IA, composée de trois agents orchestrés via LangGraph : un agent de génération de tâches, un agent de planification des sprints et backlogs, et un agent d'affectation automatique des tâches. Backend exposé comme microservice via FastAPI, interface utilisateur développée avec Next.js, et modèle de langage Groq intégré pour le raisonnement des agents.",
+    sourceCodeHref:
+      "https://github.com/Mohssine-CHKIRIDA/AgileAi/tree/final-branch",
+    liveWebsiteHref: "https://github.com/jawadelhani/LangGraph_orchestration",
+  },
+  {
     name: "Optyro — Automated SEO Audit SaaS",
     favicon: "/favicon.ico",
     imageUrl: ["/images/projects/optyro.png"],
@@ -54,23 +70,11 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://game-hub-alpha-sooty.vercel.app",
   },
   {
-    name: "LR E-commerce",
+    name: "DevOps Travelo",
     favicon: "/favicon.ico",
-    imageUrl: [
-      "/images/projects/ecommerce-products.png",
-      "/images/projects/ecommerce-login.png",
-    ],
+    imageUrl: ["/images/projects/devops-travelo.png"],
     description:
-      "Full-stack e-commerce website built with React, Node.js, PostgreSQL, and Express. Covers product listing, cart, and backend API.",
-    sourceCodeHref: "https://github.com/jawadelhani",
-    liveWebsiteHref: undefined,
-  },
-  {
-    name: "Multi-Agent Project Management System (in progress)",
-    favicon: "/favicon.ico",
-    imageUrl: ["/images/projects/multi-agent.png"],
-    description:
-      "Autonomous AI agent platform (Product Owner, Planning, Risk Manager, Coach) focused on project management intelligence: user story generation, backlog prioritization, and risk anticipation.",
+      "Implemented a full DevOps pipeline: 3-tier containerization (React, Spring Boot, MySQL), CI/CD with security scans via GitLab CI, GitOps deployment with ArgoCD, and secure secrets management using Vault.",
     sourceCodeHref: "https://github.com/jawadelhani",
     liveWebsiteHref: undefined,
   },
@@ -81,15 +85,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "Built an HTTP reverse proxy that distributes requests across three backend servers using multiple strategies (including Round Robin and Least Connections), with runtime metrics for traffic/performance optimization.",
     sourceCodeHref: "https://github.com/jawadelhani/Load_Balancer",
-    liveWebsiteHref: undefined,
-  },
-  {
-    name: "DevOps Travelo",
-    favicon: "/favicon.ico",
-    imageUrl: ["/images/projects/devops-travelo.png"],
-    description:
-      "Implemented a full DevOps pipeline: 3-tier containerization (React, Spring Boot, MySQL), CI/CD with security scans via GitLab CI, GitOps deployment with ArgoCD, and secure secrets management using Vault.",
-    sourceCodeHref: "https://github.com/jawadelhani",
     liveWebsiteHref: undefined,
   },
   {
@@ -104,6 +99,18 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     description:
       "Spring Boot e-commerce backend with JWT auth, refresh tokens (HttpOnly cookie), RBAC (USER/ADMIN), products/carts/users modules, Bean Validation, Flyway migrations, and Swagger docs. Built with Java 23, Spring Boot 3.4, MySQL, and MapStruct.",
     sourceCodeHref: "https://github.com/jawadelhani/spring-api",
+    liveWebsiteHref: undefined,
+  },
+  {
+    name: "LR E-commerce",
+    favicon: "/favicon.ico",
+    imageUrl: [
+      "/images/projects/ecommerce-products.png",
+      "/images/projects/ecommerce-login.png",
+    ],
+    description:
+      "Full-stack e-commerce website built with React, Node.js, PostgreSQL, and Express. Covers product listing, cart, and backend API.",
+    sourceCodeHref: "https://github.com/jawadelhani",
     liveWebsiteHref: undefined,
   },
 ];
